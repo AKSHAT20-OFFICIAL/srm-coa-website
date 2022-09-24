@@ -1,0 +1,33 @@
+[
+    {   "slno":"1",
+        "prg": "Btech",
+        "dpt":"Computer Science and Engineering",
+        "fname":"101581 - Dr.S.Poornima",
+        "phone":9790749571,
+        "email":"poornims@srmist.edu.in",
+        "crscd":"18CSC203J",
+        "title":"Computer Organization and Architecture",
+        "sec":"A1",
+        "btch":"1",
+        "count":"63",
+        "cr":"TP 101"
+
+    },
+    
+    {   "slno":"2",
+        "prg":"Btech",
+        "dpt":"Computer Science and Engineering",
+        "fname":"101581 - Dr.S.Poornima",
+        "phone":9790749571,
+        "email":"poornims@srmist.edu.in",
+        "crscd":"18CSC203J",
+        "title":"Computer Organization and Architecture",
+        "sec":"A1",
+        "btch":"1",
+        "count":"63",
+        "cr":"TP 101"
+
+    }
+    
+    
+]
