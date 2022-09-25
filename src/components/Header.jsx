@@ -26,13 +26,13 @@ const Header = () => {
                         <Link to='/'>Home</Link>
                     </li>
                     <li className="text-gray-300 hover:bg-blue-400 hover:text-white px-4 py-2 rounded-md font-medium">
-                        {/* <button onClick={Open()}>faculty</button> */}
+                        <Link to='/faculty'>Faculty Members</Link>
                     </li>
                     <li className="text-gray-300 hover:bg-blue-400 hover:text-white px-4 py-2 rounded-md font-medium">
-                        <Link to='/speakers'>Speakers</Link>
+                        <Link to='/syllabus'>Syllabus</Link>
                     </li>
                     <li className="text-gray-300 hover:bg-blue-400 hover:text-white px-4 py-2 rounded-md font-medium">
-                        <Link to='/gallery'>Gallery</Link>
+                        <Link to='/gallery'>Notes</Link>
                     </li>
                     <li className="text-gray-300 hover:bg-blue-400 hover:text-white px-4 py-2 rounded-md font-medium">
                         <Link to='/register'>Register</Link>
