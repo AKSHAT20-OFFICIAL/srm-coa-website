@@ -5,9 +5,9 @@ import Header from './Header';
 
 const Faculty = () => {
   return (
-    <>
+    <div className ='bg-gray-400' >
     <Header />
-    <table class="table-fixed">
+    <table class="table-fixed  m-2">
         <thead>
             <tr className='bg-black text-white font-mono '>
                 <th className='bg-gray-800'>Sno</th>
@@ -44,7 +44,7 @@ const Faculty = () => {
                 );})}              
         </tbody>
     </table>
-    </>
+    </div>
     
     
   )
