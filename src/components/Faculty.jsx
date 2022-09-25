@@ -3,9 +3,9 @@ import React from 'react';
 import Data from './info/data.json'
 const Faculty = () => {
   return (
-    <table class="table-fixed mt-28 p-10">
+    <table class="table-fixed">
         <thead>
-            <tr>
+            <tr className='bg-black text-white'>
                 <th>sl no</th>
                 <th>Program</th>
                 <th>Department</th>
@@ -23,7 +23,7 @@ const Faculty = () => {
         <tbody>
             {Data.map((post)=>{
                 return(
-                    <tr>
+                    <tr className='bg-gray-400 text-white'>
                         <td>{post.slno}</td>
                         <td>{post.prg}</td>
                         <td>{post.dpt}</td>

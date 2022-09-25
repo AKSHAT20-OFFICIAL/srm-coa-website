@@ -14,7 +14,7 @@ const Header = () => {
   return (
     <div className=' w-full   top-0 text-white flex justify-between p-4 items-center bg-sky-600'>
         <div className='text-xl font-bold text-center'>
-            <h1> SRM <span className='block text-2xl'>ICIoT - 2023</span></h1>
+            <h1> SRM <span className='block text-2xl'>Coa - 2023</span></h1>
         </div> 
 
         <nav>
@@ -26,7 +26,7 @@ const Header = () => {
                         <Link to='/'>Home</Link>
                     </li>
                     <li className="text-gray-300 hover:bg-blue-400 hover:text-white px-4 py-2 rounded-md font-medium">
-                        <button onClick={Open()}>faculty</button>
+                        {/* <button onClick={Open()}>faculty</button> */}
                     </li>
                     <li className="text-gray-300 hover:bg-blue-400 hover:text-white px-4 py-2 rounded-md font-medium">
                         <Link to='/speakers'>Speakers</Link>
