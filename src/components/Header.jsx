@@ -2,7 +2,7 @@ import { MenuOutlined } from '@material-ui/icons';
 import React,{useState} from 'react';
 import { Link } from 'react-router-dom';
 import MenuItems from './MenuItems';
-
+import logo from "../components/images/Srmseal.png"
 const Header = () => {
 
     const [active,setActive] = useState(false)
@@ -13,8 +13,11 @@ const Header = () => {
 
   return (
     <div className=' w-full   top-0 text-white flex justify-between p-4 items-center bg-sky-900'>
-        <div className='text-xl font-bold text-center'>
-            <h1> SRM <span className='block text-2xl'>Coa - 2023</span></h1>
+        <div className='text-xl flex font-bold text-center'>
+            <img className= "box-border h-50 w-50" src={logo} alt="logos" width="30%" height="30%"/>
+            
+                <h1 className='m-10'><span className="justify-between">COA-SRM</span></h1>
+            
         </div> 
 
         <nav>
