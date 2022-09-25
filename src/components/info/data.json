@@ -433,7 +433,7 @@
     "crscd":"18CSC203J",
     "title":"Computer Organization and Architecture",
     "sec":"A2",
-    "btch":"1",
+    "btch":"2",
     "count":"60",
     "cr":"TP 101"
 
@@ -448,7 +448,7 @@
     "crscd":"18CSC203J",
     "title":"Computer Organization and Architecture",
     "sec":"AA2",
-    "btch":"1",
+    "btch":"2",
     "count":"58",
     "cr":"508"
 
@@ -463,7 +463,7 @@
     "crscd":"18CSC203J",
     "title":"Computer Organization and Architecture",
     "sec":"AB2",
-    "btch":"1",
+    "btch":"2",
     "count":"52",
     "cr":"507"
 
@@ -478,7 +478,7 @@
     "crscd":"18CSC203J",
     "title":"Computer Organization and Architecture",
     "sec":"B2",
-    "btch":"1",
+    "btch":"2",
     "count":"61",
     "cr":"TP 102"
 
@@ -493,7 +493,7 @@
     "crscd":"18CSC203J",
     "title":"Computer Organization and Architecture",
     "sec":"C2",
-    "btch":"1",
+    "btch":"2",
     "count":"62",
     "cr":"TP 103"
 
@@ -508,7 +508,7 @@
     "crscd":"18CSC203J",
     "title":"Computer Organization and Architecture",
     "sec":"D2",
-    "btch":"1",
+    "btch":"2",
     "count":"62",
     "cr":"TP 105"
 
@@ -522,7 +522,7 @@
     "crscd":"18CSC203J",
     "title":"Computer Organization and Architecture",
     "sec":"E2",
-    "btch":"1",
+    "btch":"2",
     "count":"63",
     "cr":"TP 201"
 
@@ -536,7 +536,7 @@
     "crscd":"18CSC203J",
     "title":"Computer Organization and Architecture",
     "sec":"F2",
-    "btch":"1",
+    "btch":"2",
     "count":"59",
     "cr":"TP 202"
 
@@ -551,7 +551,7 @@
     "crscd":"18CSC203J",
     "title":"Computer Organization and Architecture",
     "sec":"G2",
-    "btch":"1",
+    "btch":"2",
     "count":"60",
     "cr":"TP 203"
 
@@ -567,7 +567,7 @@
     "crscd":"18CSC203J",
     "title":"Computer Organization and Architecture",
     "sec":"H2",
-    "btch":"1",
+    "btch":"2",
     "count":"60",
     "cr":"TP 204"
 
@@ -582,7 +582,7 @@
     "crscd":"18CSC203J",
     "title":"Computer Organization and Architecture",
     "sec":"I2",
-    "btch":"1",
+    "btch":"2",
     "count":"59",
     "cr":"TP 205"
 
@@ -597,11 +597,250 @@
     "crscd":"18CSC203J",
     "title":"Computer Organization and Architecture",
     "sec":"J2",
-    "btch":"1",
+    "btch":"2",
     "count":"62",
     "cr":"TP 206"
 
 },
+
+{   "slno":"41",
+    "prg":"Btech",
+    "dpt":"Computer Science and Engineering",
+    "fname":"102235 - Ms.J.Briskilal",
+    "phone":9840574851,
+    "email":"briskilj@srmist.edu.in",
+    "crscd":"18CSC203J",
+    "title":"Computer Organization and Architecture",
+    "sec":"K2",
+    "btch":"2",
+    "count":"61",
+    "cr":"TP 301"
+
+},
+{   "slno":"42",
+    "prg":"Btech",
+    "dpt":"Computer Science and Engineering",
+    "fname":"102243 - Ms.M.Ranjani",
+    "phone":8098046300,
+    "email":"ranjanim1@srmist.edu.in",
+    "crscd":"18CSC203J",
+    "title":"Computer Organization and Architecture",
+    "sec":"L2",
+    "btch":"2",
+    "count":"60",
+    "cr":"TP 302"
+
+},
+
+{   "slno":"43",
+    "prg":"Btech",
+    "dpt":"Computer Science and Engineering",
+    "fname":"101357 - Ms.D.Vanusha",
+    "phone":9790819629,
+    "email":"vanushad@srmist.edu.in",
+    "crscd":"18CSC203J",
+    "title":"Computer Organization and Architecture",
+    "sec":"M2",
+    "btch":"2",
+    "count":"62",
+    "cr":"TP 303"
+
+},
+
+{   "slno":"44",
+    "prg":"Btech",
+    "dpt":"Computer Science and Engineering",
+    "fname":"102456 - Dr.B.Baranidharan",
+    "phone":9894861636,
+    "email":"baranidb@srmist.edu.in",
+    "crscd":"18CSC203J",
+    "title":"Computer Organization and Architecture",
+    "sec":"N2",
+    "btch":"2",
+    "count":"63",
+    "cr":"TP 304"
+
+},
+
+{   "slno":"45",
+    "prg":"Btech",
+    "dpt":"Computer Science and Engineering",
+    "fname":"102713 - Dr. Arun A",
+    "phone":9884911783,
+    "email":"aruna2@srmist.edu.in",
+    "crscd":"18CSC203J",
+    "title":"Computer Organization and Architecture",
+    "sec":"O2",
+    "btch":"2",
+    "count":"59",
+    "cr":"TP 305"
+
+},
+
+{   "slno":"46",
+    "prg":"Btech",
+    "dpt":"Computer Science and Engineering",
+    "fname":"100392 - Ms.G.Sujatha",
+    "phone":9626301579,
+    "email":"sujathag@srmist.edu.in",
+    "crscd":"18CSC203J",
+    "title":"Computer Organization and Architecture",
+    "sec":"P2",
+    "btch":"2",
+    "count":"57",
+    "cr":"TP 306"
+
+},
+
+{   "slno":"47",
+    "prg":"Btech",
+    "dpt":"Computer Science and Engineering",
+    "fname":"102075 - Mr. H. Karthikeyan",
+    "phone":9710746862,
+    "email":"karthikh@srmist.edu.in",
+    "crscd":"18CSC203J",
+    "title":"Computer Organization and Architecture",
+    "sec":"Q2",
+    "btch":"2",
+    "count":"60",
+    "cr":"TP 403"
+
+},
+
+{   "slno":"48",
+    "prg":"Btech",
+    "dpt":"Computer Science and Engineering",
+    "fname":"100497 - Dr. S. Metilda Florence",
+    "phone":9840322612,
+    "email":"metildam@srmist.edu.in",
+    "crscd":"18CSC203J",
+    "title":"Computer Organization and Architecture",
+    "sec":"R2",
+    "btch":"2",
+    "count":"58",
+    "cr":"TP 406"
+
+},
+
+{   "slno":"49",
+    "prg":"Btech",
+    "dpt":"Computer Science and Engineering",
+    "fname":"101587 - Ms.G.Geetha",
+    "phone":9787243176,
+    "email":"geethag@srmist.edu.in",
+    "crscd":"18CSC203J",
+    "title":"Computer Organization and Architecture",
+    "sec":"S2",
+    "btch":"2",
+    "count":"55",
+    "cr":"TP 503"
+
+},
+
+{   "slno":"50",
+    "prg":"Btech",
+    "dpt":"Computer Science and Engineering",
+    "fname":"102707 - Dr. Suseela G",
+    "phone":9841261597,
+    "email":"suseelag@srmist.edu.in",
+    "crscd":"18CSC203J",
+    "title":"Computer Organization and Architecture",
+    "sec":"T2",
+    "btch":"2",
+    "count":"59",
+    "cr":"TP 504"
+
+},
+
+{   "slno":"51",
+    "prg":"Btech",
+    "dpt":"Computer Science and Engineering",
+    "fname":"100617 - Ms. Sasi Rekha Sankar",
+    "phone":9884974834,
+    "email":"sasireks@srmist.edu.in",
+    "crscd":"18CSC203J",
+    "title":"Computer Organization and Architecture",
+    "sec":"U2",
+    "btch":"2",
+    "count":"61",
+    "cr":"1207"
+
+},
+
+{   "slno":"52",
+    "prg":"Btech",
+    "dpt":"Computer Science and Engineering",
+    "fname":"102890 - Dr.Jayakanth J J",
+    "phone":9894618348,
+    "email":"jayakanj@srmist.edu.in",
+    "crscd":"18CSC203J",
+    "title":"Computer Organization and Architecture",
+    "sec":"V2",
+    "btch":"2",
+    "count":"62",
+    "cr":"1211"
+
+},
+
+{   "slno":"53",
+    "prg":"Btech",
+    "dpt":"Computer Science and Engineering",
+    "fname":"100197 - Dr.T.S.Shiny Angel",
+    "phone":9094411313,
+    "email":"shinyant@srmist.edu.in",
+    "crscd":"18CSC203J",
+    "title":"Computer Organization and Architecture",
+    "sec":"W2",
+    "btch":"2",
+    "count":"60",
+    "cr":"1212"
+
+},
+
+{   "slno":"54",
+    "prg":"Btech",
+    "dpt":"Computer Science and Engineering",
+    "fname":"100188 - Dr.N.Snehalatha",
+    "phone":9884956441,
+    "email":"snehalan@srmist.edu.in",
+    "crscd":"18CSC203J",
+    "title":"Computer Organization and Architecture",
+    "sec":"X2",
+    "btch":"2",
+    "count":"61",
+    "cr":"1216"
+
+},
+
+{   "slno":"55",
+    "prg":"Btech",
+    "dpt":"Computer Science and Engineering",
+    "fname":"101246 - Mrs.C.G.Anupama",
+    "phone":9677133931,
+    "email":"anupamag@srmist.edu.in",
+    "crscd":"18CSC203J",
+    "title":"Computer Organization and Architecture",
+    "sec":"Y2",
+    "btch":"2",
+    "count":"61",
+    "cr":"1219"
+
+},
+
+{   "slno":"56",
+    "prg":"Btech",
+    "dpt":"Computer Science and Engineering",
+    "fname":"102955 - Dr. Premalatha G",
+    "phone":9952042616,
+    "email":"",
+    "crscd":"18CSC203J",
+    "title":"Computer Organization and Architecture",
+    "sec":"Z2",
+    "btch":"2",
+    "count":"55",
+    "cr":"509"
+
+}
 
 
 
