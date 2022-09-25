@@ -12,7 +12,7 @@ const Header = () => {
     }
 
   return (
-    <div className=' w-full   top-0 text-white flex justify-between p-4 items-center bg-sky-600'>
+    <div className=' w-full   top-0 text-white flex justify-between p-4 items-center bg-sky-900'>
         <div className='text-xl font-bold text-center'>
             <h1> SRM <span className='block text-2xl'>Coa - 2023</span></h1>
         </div> 
