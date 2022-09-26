@@ -26,7 +26,7 @@ const Header = () => {
             </div>
                 <ul className='hidden md:flex gap-8 p-6 uppercase'>
                     <li className="text-gray-300 hover:bg-blue-400 hover:text-white px-4 py-2 rounded-md font-medium">
-                        <Link to='/'>Home</Link>
+                        <Link to='/home'>Home</Link>
                     </li>
                     <li className="text-gray-300 hover:bg-blue-400 hover:text-white px-4 py-2 rounded-md font-medium">
                         <Link to='/faculty'>Faculty Members</Link>
