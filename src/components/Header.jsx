@@ -14,9 +14,9 @@ const Header = () => {
   return (
     <div className=' w-full   top-0 text-white flex justify-between p-4 items-center bg-sky-900'>
         <div className='text-xl flex font-bold text-center'>
-            <img className= "box-border h-50 w-50" src={logo} alt="logos" width="30%" height="30%"/>
+            <img src={logo} alt="logos" width="23%" height="23%"/>
             
-                <h1 className='m-10'><span className="justify-between">COA-SRM</span></h1>
+                <h1 className='m-10 font-mono text-[25px] text-slate-400 font-bold'><span className="justify-between">COA-SRM</span></h1>
             
         </div> 
 
