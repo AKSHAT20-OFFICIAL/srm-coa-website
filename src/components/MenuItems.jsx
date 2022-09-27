@@ -16,6 +16,7 @@ const MenuItems = ({ showMenu, active }) => {
                 <Link to='/syllabus'>Syllabus</Link>
             </li>
             <li className="text-gray-300 hover:bg-blue-400 hover:text-white px-4 py-2 rounded-md font-medium">
+                <Link to='/units'>Notes</Link>
                 <Link to='/notes'>Notes</Link>
             </li>
             <li className="text-gray-300 hover:bg-blue-400 hover:text-white px-4 py-2 rounded-md font-medium">
