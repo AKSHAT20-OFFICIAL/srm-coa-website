@@ -1,11 +1,13 @@
 
 import React from 'react';
-import Data from './info/data.json'
+import Data from './info/data.json';
+import Header from './Header';
 
 const Faculty = () => {
   return (
-    
-    <table class="table-fixed">
+    <div className ='bg-gray-400' >
+    <Header />
+    <table class="table-fixed  m-2">
         <thead>
             <tr className='bg-black text-white font-mono '>
                 <th className='bg-gray-800'>Sno</th>
@@ -15,7 +17,7 @@ const Faculty = () => {
                 <th>Mobile Number</th>
                 <th>Email Id</th>
                 <th>Course code</th>
-                <th>Title</th>
+                
                 <th>Sec</th>
                 <th>Batch</th>
                 <th>Count</th>
@@ -33,7 +35,7 @@ const Faculty = () => {
                         <td className='border border-grey-600'>{post.phone}</td>
                         <td className='border border-grey-600'>{post.email}</td>
                         <td className='border border-grey-600'>{post.crscd}</td>
-                        <td className='border border-grey-600'>{post.title}</td>
+                        
                         <td className='border border-grey-600'>{post.sec}</td>
                         <td className='border border-grey-600'>{post.btch}</td>
                         <td className='border border-grey-600'>{post.count}</td>
@@ -42,6 +44,9 @@ const Faculty = () => {
                 );})}              
         </tbody>
     </table>
+    </div>
+    
+    
   )
 }
 
