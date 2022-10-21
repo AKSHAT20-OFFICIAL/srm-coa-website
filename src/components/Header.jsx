@@ -25,7 +25,7 @@ const Header = () => {
                 <MenuOutlined onClick={showMenu} className='scale-100 cursor-pointer'/>
             </div>
                 <ul className='hidden md:flex gap-8 p-6 uppercase'>
-                    <li className="text-gray-300 hover:bg-blue-400 hover:text-white px-4 py-2 rounded-md font-medium">
+                    <li className="text-gray-300  hover:bg-blue-400 hover:text-white px-4 py-2 rounded-md font-medium">
                         <Link to='/home'>Home</Link>
                     </li>
                     <li className="text-gray-300 hover:bg-blue-400 hover:text-white px-4 py-2 rounded-md font-medium">
