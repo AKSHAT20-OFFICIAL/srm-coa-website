@@ -6,6 +6,7 @@ import Faculty from './components/Faculty';
 import Syllabus from './components/Syllabus';
 import Units from './components/Units';
 import Login from './components/Login';
+import Home from './components/Home';
 ReactDOM.render(
   <Router>
     <Routes>
@@ -14,6 +15,7 @@ ReactDOM.render(
       <Route path='/syllabus' element={<Syllabus/>}/>
       <Route path='/units' element={<Units/>}/>
       <Route path='/login' element={<Login/>}/>
+      <Route path='/home' element={<Home/>}/>
     </Routes>
   </Router>,
     document.getElementById('root')
