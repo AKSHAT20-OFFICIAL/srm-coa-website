@@ -1,27 +1,64 @@
-import React from 'react'
-
+import React,{useState} from 'react'
+import { CButton,CCollapse,CCard,CCardBody} from '@coreui/react'
+import '@coreui/coreui/dist/css/coreui.min.css'
+// import MyComponent from './pdf';
 const Units = () => {
+    const [visible1, setVisible1] = useState(false);
+    const [visible2, setVisible2] = useState(false);
+    const [visible3, setVisible3] = useState(false);
+    const [visible4, setVisible4] = useState(false);
+    const [visible5, setVisible5] = useState(false);
   return (
-    <div>
-           <button id="dropdownDefault" data-dropdown-toggle="dropdown" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" type="button">Dropdown button <svg class="ml-2 w-4 h-4" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></button>
-            <div id="dropdown" class="hidden z-10 w-44 bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700">
-                <ul class="py-1 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefault">
-                <li>
-                    <a href="#" class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Dashboard</a>
-                </li>
-                <li>
-                    <a href="#" class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Settings</a>
-                </li>
-                <li>
-                    <a href="#" class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Earnings</a>
-                </li>
-                <li>
-                    <a href="#" class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Sign out</a>
-                </li>
-                </ul>
-            </div>
-        
+    <>     
+           <CButton className=" w-full" onClick={() => setVisible1(!visible1)} aria-expanded={visible1} aria-controls="collapseWidthExample1">Unit 1</CButton>
+           <div style={{ minHeight: '0'}}>
+      <CCollapse id="collapseWidthExample1" horizontal visible={visible1}>
+        <CCard style={{width: '100%'}}>
+          <div className='flex'>
+          <CCardBody style={{width: '30%',height:'400px'}}>
+         
+          
+         <iframe src="https://drive.google.com/file/d/1Ry9IIhzKxH7Q_7epeFvq9pnZZ1YcdNru/preview" width="100%" height="100%" ></iframe>
+         
+         </CCardBody>
+         <CCardBody style={{width: '30%',height:'400px'}}><iframe src="https://drive.google.com/file/d/1Ry9IIhzKxH7Q_7epeFvq9pnZZ1YcdNru/preview" width="100%" height="100%" ></iframe>
+         </CCardBody>
+         <CCardBody style={{width: '30%',height:'400px'}}><iframe src="https://drive.google.com/file/d/1Ry9IIhzKxH7Q_7epeFvq9pnZZ1YcdNru/preview" width="100%" height="100%" ></iframe>
+         </CCardBody>
+          </div>
+          
+        </CCard>
+      </CCollapse>
     </div>
+    {/* end of ut1 */}
+           <CButton className=" w-full" onClick={() => setVisible2(!visible2)} aria-expanded={visible2} aria-controls="collapseWidthExample2">Unit 2</CButton>
+           <div style={{ minHeight: '0px'}}>
+      <CCollapse id="collapseWidthExample2" horizontal visible={visible2}>
+        <CCard style={{width: '100%'}}>
+          <div className='flex'>
+          <CCardBody style={{width: '30%',height:'400px'}}>
+         
+          
+         <iframe src="https://drive.google.com/file/d/1Ry9IIhzKxH7Q_7epeFvq9pnZZ1YcdNru/preview" width="100%" height="100%" ></iframe>
+         
+         </CCardBody>
+         <CCardBody style={{width: '30%',height:'400px'}}><iframe src="https://drive.google.com/file/d/1Ry9IIhzKxH7Q_7epeFvq9pnZZ1YcdNru/preview" width="100%" height="100%" ></iframe>
+         </CCardBody>
+         <CCardBody style={{width: '30%',height:'400px'}}><iframe src="https://drive.google.com/file/d/1Ry9IIhzKxH7Q_7epeFvq9pnZZ1YcdNru/preview" width="100%" height="100%" ></iframe>
+         </CCardBody>
+          </div>
+          
+        </CCard>
+      </CCollapse>
+    </div>
+    {/* end of ut2 */}
+           <CButton className="w-full" onClick={() => setVisible3(!visible3)} aria-expanded={visible3} aria-controls="collapseWidthExample3">Unit 3</CButton>
+           <CButton className="w-full" onClick={() => setVisible4(!visible4)} aria-expanded={visible4} aria-controls="collapseWidthExample4">Unit 4</CButton>
+           <CButton className="w-full" onClick={() => setVisible5(!visible5)} aria-expanded={visible5} aria-controls="collapseWidthExample5">Unit 5</CButton>
+
+    
+    
+    </>
   )
 }
 
