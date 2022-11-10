@@ -3,6 +3,7 @@ import React,{useState} from 'react';
 import { Link } from 'react-router-dom';
 import MenuItems from './MenuItems';
 import logo from "../components/images/Srmseal.png"
+import './header.css'
 const Header = () => {
 
     const [active,setActive] = useState(false)
@@ -17,28 +18,35 @@ const Header = () => {
             <img src={logo} alt="logos" width="23%" height="23%"/>
             
                 <h1 className='m-10 font-mono text-[25px] text-slate-400 font-bold'><span className="justify-between">COA-SRM</span></h1>
-            
-        </div> 
+        </div>  
 
         <nav>
             <div className='absolute right-6 md:hidden top-6 scale-150'>
                 <MenuOutlined onClick={showMenu} className='scale-100 cursor-pointer'/>
             </div>
-                <ul className='hidden md:flex gap-8 p-6 uppercase'>
-                    <li className="text-gray-300  hover:bg-blue-400 hover:text-white px-4 py-2 rounded-md font-medium">
-                        <Link to='/home'>Home</Link>
+                <ul className='hidden md:flex gap-8 p-6 '>
+                    <li className="text-gray-300 hover:bg-blue-400 hover:text-white py-2 rounded-md font-medium">
+                        <Link style={{textDecoration:'none'}} className="text-gray-300  hover:bg-blue-400 hover:text-white px-4 py-2 rounded-md font-medium" to='/home'>Home</Link>
                     </li>
-                    <li className="text-gray-300 hover:bg-blue-400 hover:text-white px-4 py-2 rounded-md font-medium">
-                        <Link to='/faculty'>Faculty Members</Link>
+                    <li className="text-gray-300 hover:bg-blue-400 hover:text-white py-2 rounded-md font-medium">
+                        <Link style={{textDecoration:'none'}} className="text-gray-300  hover:bg-blue-400 hover:text-white px-4 py-2 rounded-md font-medium" to='/faculty'>Faculty Members</Link>
                     </li>
-                    <li className="text-gray-300 hover:bg-blue-400 hover:text-white px-4 py-2 rounded-md font-medium">
-                        <Link to='/syllabus'>Syllabus</Link>
+                    <li className="text-gray-300 hover:bg-blue-400 hover:text-white  py-2 rounded-md font-medium">
+                    <div className="dropdown inline-block relative">
+                        <span className="text-gray-300 px-4 rounded inline-flex items-center hover:text-white">
+                            Syllabus</span>
+                        <ul className="dropdown-menu absolute hidden text-gray-700 p-0">
+                            <li class=""><Link style={{textDecoration:'none'}} className="rounded-t bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" to="/syllabus">Practical</Link></li>
+                            <li class=""><Link style={{textDecoration:'none'}} className="rounded-t bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" to="/practical">Theory</Link></li>
+                            <li class=""><Link style={{textDecoration:'none'}} className="rounded-t bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" to="/mom">MOM</Link></li>
+                            </ul>
+                    </div>
                     </li>
-                    <li className="text-gray-300 hover:bg-blue-400 hover:text-white px-4 py-2 rounded-md font-medium">
-                        <Link to='/units'>Notes</Link>
+                    <li className="text-gray-300 hover:bg-blue-400 hover:text-white py-2 rounded-md font-medium">
+                        <Link style={{textDecoration:'none'}} className="text-gray-300  hover:bg-blue-400 hover:text-white px-4 py-2 rounded-md font-medium" to='/units'>Notes</Link>
                     </li>
-                    <li className="text-gray-300 hover:bg-blue-400 hover:text-white px-4 py-2 rounded-md font-medium">
-                        <Link to='/login'>Login</Link>
+                    <li className="text-gray-300 hover:bg-blue-400 hover:text-white  py-2 rounded-md font-medium">
+                        <Link style={{textDecoration:'none'}} className="text-gray-300  hover:bg-blue-400 hover:text-white px-4 py-2 rounded-md font-medium" to='/login'>Login</Link>
                     </li>
                 </ul>
 

@@ -45,6 +45,30 @@ function Home() {
 
 
    </div>
+   <div className=' px-[15vw] py-[10vh] gap-[15vw]'>
+   <h1 className='text-slate-900 text-5xl font-mono font-bold pb-5'>(CAM)</h1>
+   <ul className='list-disc'>
+    
+   </ul>
+
+
+   </div>
+   <div className=' px-[15vw] py-[10vh] gap-[15vw]'>
+   <h1 className='text-slate-900 text-5xl font-mono font-bold pb-5'>(CAP)</h1>
+   <ul className='list-disc'>
+    
+   </ul>
+
+
+   </div>
+   <div className=' px-[15vw] py-[10vh] gap-[15vw]'>
+   <h1 className='text-slate-900 text-5xl font-mono font-bold pb-5'>Course Objective (CO)</h1>
+   <ul className='list-disc'>
+   
+   </ul>
+
+
+   </div>
    </div>
 
    </div>
