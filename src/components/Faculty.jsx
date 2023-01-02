@@ -10,36 +10,36 @@ const Faculty = () => {
     <table class="table-auto  m-2">
         <thead>
             <tr className='bg-black text-white font-mono '>
-                <th className='bg-gray-800'>Sno</th>
-                <th> Program</th>
-                <th>Department</th>
-                <th>Faculty Name</th>
-                <th>Mobile Number</th>
-                <th>Email Id</th>
-                <th>Course code</th>
+                <th className='px-6 border border-white py-4 text-center'>Sno</th>
+                <th className="px-6 border border-white py-4 text-center"> Program</th>
+                <th className="px-6 border border-white py-4 text-center">Department</th>
+                <th className="px-6 border border-white py-4 text-center">Faculty Name</th>
+                <th className="px-6 border border-white py-4 text-center">Mobile Number</th>
+                <th className="px-6 border border-white py-4 text-center">Email Id</th>
+                <th className="px-6 border border-white py-4 text-center">Course Code</th>
                 
-                <th>Sec</th>
-                <th>Batch</th>
-                <th>Count</th>
-                <th>Classroom</th>
+                <th className="px-6 border border-white py-4 text-center">Sec</th>
+                <th className="px-6 border border-white py-4 text-center">Batch</th>
+                <th className="px-6 border border-white py-4 text-center">Count</th>
+                <th className="px-6 border border-white py-4 text-center">Classroom</th>
             </tr>
         </thead>
         <tbody>
             {Data.map((post)=>{
                 return(
-                    <tr className='bg-gray-400 text-white'>
-                        <td className='bg-sky-900 text-white'>{post.slno}</td>
-                        <td className='border border-grey-600'>{post.prg}</td>
-                        <td className='border border-grey-600'>{post.dpt}</td>
-                        <td className='border border-grey-600'>{post.fname}</td>
-                        <td className='border border-grey-600'>{post.phone}</td>
-                        <td className='border border-grey-600'>{post.email}</td>
-                        <td className='border border-grey-600'>{post.crscd}</td>
+                    <tr className='bg-white text-black'>
+                        <td className='bg-sky-900 border border-grey-600 text-white  px-6 py-4'>{post.slno}</td>
+                        <td className='border border-grey-600  px-6 py-4 text-center'>{post.prg}</td>
+                        <td className='border border-grey-600  px-6 py-4 text-center'>{post.dpt}</td>
+                        <td className='border border-grey-600  px-6 py-4 text-center'>{post.fname}</td>
+                        <td className='border border-grey-600  px-6 py-4 text-center'>{post.phone}</td>
+                        <td className='border border-grey-600  px-6 py-4 text-center'>{post.email}</td>
+                        <td className='border border-grey-600  px-6 py-4 text-center'>{post.crscd}</td>
                         
-                        <td className='border border-grey-600'>{post.sec}</td>
-                        <td className='border border-grey-600'>{post.btch}</td>
-                        <td className='border border-grey-600'>{post.count}</td>
-                        <td className='border border-grey-600'>{post.cr}</td>
+                        <td className='border border-grey-600  px-6 py-4 text-center'>{post.sec}</td>
+                        <td className='border border-grey-600  px-6 py-4 text-center'>{post.btch}</td>
+                        <td className='border border-grey-600  px-6 py-4 text-center'>{post.count}</td>
+                        <td className='border border-grey-600 w-full  px-6 py-4 text-center'>{post.cr}</td>
                     </tr>
                 );})}              
         </tbody>

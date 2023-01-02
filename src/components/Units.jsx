@@ -12,7 +12,8 @@ const Units = () => {
   return (
     <>  
     <Header/>   
-           <CButton className=" w-full" onClick={() => setVisible1(!visible1)} aria-expanded={visible1} aria-controls="collapseWidthExample1">Unit 1</CButton>
+    <div class="flex mt-2 justify-content-center">
+           <CButton className=" w-40" onClick={() => setVisible1(!visible1)} aria-expanded={visible1} aria-controls="collapseWidthExample1">Unit 1</CButton>
            <div style={{ minHeight: '0'}}>
       <CCollapse id="collapseWidthExample1" horizontal visible={visible1}>
         <CCard style={{width: '100%'}}>
@@ -31,8 +32,10 @@ const Units = () => {
         </CCard>
       </CCollapse>
     </div>
+    </div>
     {/* end of ut1 */}
-           <CButton className=" w-full" onClick={() => setVisible2(!visible2)} aria-expanded={visible2} aria-controls="collapseWidthExample2">Unit 2</CButton>
+    <div class="flex mt-5 justify-content-center">
+           <CButton className=" w-40" onClick={() => setVisible2(!visible2)} aria-expanded={visible2} aria-controls="collapseWidthExample2">Unit 2</CButton>
            <div style={{ minHeight: '0px'}}>
       <CCollapse id="collapseWidthExample2" horizontal visible={visible2}>
         <CCard style={{width: '100%'}}>
@@ -52,8 +55,10 @@ const Units = () => {
         </CCard>
       </CCollapse>
     </div>
+    </div>
     {/* end of ut2 */}
-           <CButton className="w-full" onClick={() => setVisible3(!visible3)} aria-expanded={visible3} aria-controls="collapseWidthExample3">Unit 3</CButton>
+    <div class="flex mt-5 justify-content-center">
+           <CButton className="w-40" onClick={() => setVisible3(!visible3)} aria-expanded={visible3} aria-controls="collapseWidthExample3">Unit 3</CButton>
            <div style={{ minHeight: '0px'}}>
       <CCollapse id="collapseWidthExample2" horizontal visible={visible3}>
         <CCard style={{width: '100%'}}>
@@ -73,12 +78,12 @@ const Units = () => {
         </CCard>
       </CCollapse>
     </div>
+    </div>
 
 
 
-
-
-           <CButton className="w-full" onClick={() => setVisible4(!visible4)} aria-expanded={visible4} aria-controls="collapseWidthExample4">Unit 4</CButton>
+    <div class="flex mt-5 justify-content-center">
+           <CButton className="w-40" onClick={() => setVisible4(!visible4)} aria-expanded={visible4} aria-controls="collapseWidthExample4">Unit 4</CButton>
            <div style={{ minHeight: '0px'}}>
       <CCollapse id="collapseWidthExample2" horizontal visible={visible4}>
         <CCard style={{width: '100%'}}>
@@ -98,7 +103,9 @@ const Units = () => {
         </CCard>
       </CCollapse>
     </div>
-           <CButton className="w-full" onClick={() => setVisible5(!visible5)} aria-expanded={visible5} aria-controls="collapseWidthExample5">Unit 5</CButton>
+    </div>
+    <div class="flex mt-5 justify-content-center">
+           <CButton className="w-40" onClick={() => setVisible5(!visible5)} aria-expanded={visible5} aria-controls="collapseWidthExample5">Unit 5</CButton>
            <div style={{ minHeight: '0px'}}>
       <CCollapse id="collapseWidthExample2" horizontal visible={visible5}>
         <CCard style={{width: '100%'}}>
@@ -114,6 +121,7 @@ const Units = () => {
           
         </CCard>
       </CCollapse>
+    </div>
     </div>
            
 

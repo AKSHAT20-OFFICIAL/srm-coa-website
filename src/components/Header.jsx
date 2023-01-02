@@ -26,12 +26,12 @@ const Header = () => {
             </div>
                 <ul className='hidden md:flex gap-8 p-6 '>
                     <li className="text-gray-300 hover:bg-blue-400 hover:text-white py-2 rounded-md font-medium">
-                        <Link style={{textDecoration:'none'}} className="text-gray-300  hover:bg-blue-400 hover:text-white px-4 py-2 rounded-md font-medium" to='/home'>Home</Link>
+                        <Link style={{textDecoration:'none'}} className="text-gray-300  hover:bg-blue-400 hover:text-white px-4 py-2 rounded-md font-medium text-lg" to='/home'>Home</Link>
                     </li>
                     <li className="text-gray-300 hover:bg-blue-400 hover:text-white py-2 rounded-md font-medium">
-                        <Link style={{textDecoration:'none'}} className="text-gray-300  hover:bg-blue-400 hover:text-white px-4 py-2 rounded-md font-medium" to='/faculty'>Faculty Members</Link>
+                        <Link style={{textDecoration:'none'}} className="text-gray-300  hover:bg-blue-400 hover:text-white px-4 py-2 rounded-md font-medium text-lg" to='/faculty'>Faculty Members</Link>
                     </li>
-                    <li className="text-gray-300 hover:bg-blue-400 hover:text-white  py-2 rounded-md font-medium">
+                    <li className="text-gray-300 hover:bg-blue-400 hover:text-white  py-2 rounded-md font-medium text-lg">
                     <div className="dropdown inline-block relative">
                         <span className="text-gray-300 px-4 rounded inline-flex items-center hover:text-white">
                             Syllabus</span>
@@ -43,10 +43,10 @@ const Header = () => {
                     </div>
                     </li>
                     <li className="text-gray-300 hover:bg-blue-400 hover:text-white py-2 rounded-md font-medium">
-                        <Link style={{textDecoration:'none'}} className="text-gray-300  hover:bg-blue-400 hover:text-white px-4 py-2 rounded-md font-medium" to='/units'>Notes</Link>
+                        <Link style={{textDecoration:'none'}} className="text-gray-300  hover:bg-blue-400 hover:text-white px-4 py-2 rounded-md font-medium text-lg" to='/units'>Notes</Link>
                     </li>
                     <li className="text-gray-300 hover:bg-blue-400 hover:text-white  py-2 rounded-md font-medium">
-                        <Link style={{textDecoration:'none'}} className="text-gray-300  hover:bg-blue-400 hover:text-white px-4 py-2 rounded-md font-medium" to='/login'>Login</Link>
+                        <Link style={{textDecoration:'none'}} className="text-gray-300  hover:bg-blue-400 hover:text-white px-4 py-2 rounded-md font-medium text-lg" to='/login'>Login</Link>
                     </li>
                 </ul>
 
